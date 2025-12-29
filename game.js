@@ -276,11 +276,16 @@ function calculateResult() {
     return;
   }
 
+  // Track statistics
+  if (typeof trackQuizResult === "function") {
+    trackQuizResult(gameState.choices, archetype, path);
+  }
+
   renderResult(archetype, path);
 }
 
 // Render Result
-function renderResult(archetype, path) {
+async function renderResult(archetype, path) {
   showPhase("result");
 
   const resultContent = document.getElementById("result-content");
@@ -306,6 +311,59 @@ function renderResult(archetype, path) {
       "You built a system that feels human but thinks like a supercomputer.";
   } else {
     resultDescription = `You've built something unique by combining ${step1Label.toLowerCase()}, ${step2Label.toLowerCase()}, and ${step3Label.toLowerCase()}.`;
+  }
+
+  // Fetch statistics
+  const stats =
+    typeof getStatistics === "function" ? await getStatistics() : null;
+
+  // Build statistics HTML
+  let statsHTML = "";
+  if (stats && stats.total > 0) {
+    const userArchetypeCount =
+      stats.archetypes.find((a) => a.archetype === archetype.name)?.count || 0;
+    const userArchetypePercent = (
+      (userArchetypeCount / stats.total) *
+      100
+    ).toFixed(1);
+
+    statsHTML = `
+      <div class="result-section" style="margin-top: 30px; padding-top: 30px; border-top: 2px solid #eee;">
+        <h3>Community Statistics</h3>
+        <p style="margin-bottom: 15px; color: #666;">
+          <strong>${stats.total}</strong> ${
+      stats.total === 1 ? "person has" : "people have"
+    } taken this quiz.
+        </p>
+        <p style="margin-bottom: 20px;">
+          <strong>${userArchetypeCount}</strong> ${
+      userArchetypeCount === 1 ? "person" : "people"
+    } (${userArchetypePercent}%) got the same result as you: <strong>${
+      archetype.name
+    }</strong>
+        </p>
+        
+        <div style="margin-top: 20px;">
+          <h4 style="font-size: 1em; margin-bottom: 10px; color: #444;">Most Popular Archetypes:</h4>
+          <ul style="list-style: none; padding: 0;">
+            ${stats.archetypes
+              .slice(0, 5)
+              .map((a) => {
+                const percent = ((a.count / stats.total) * 100).toFixed(1);
+                const isUser = a.archetype === archetype.name;
+                return `<li style="margin: 8px 0; padding: 8px; background: ${
+                  isUser ? "#e8f5e9" : "#f9f9f9"
+                }; border-left: 3px solid ${isUser ? "#4caf50" : "#ddd"};">
+                <strong>${a.archetype}</strong> - ${a.count} ${
+                  a.count === 1 ? "vote" : "votes"
+                } (${percent}%)
+              </li>`;
+              })
+              .join("")}
+          </ul>
+        </div>
+      </div>
+    `;
   }
 
   resultContent.innerHTML = `
@@ -353,6 +411,8 @@ function renderResult(archetype, path) {
                     <p><strong>${archetype.fatalFlaw}</strong></p>
                 </div>
             </div>
+            
+            ${statsHTML}
         </div>
     `;
 }
