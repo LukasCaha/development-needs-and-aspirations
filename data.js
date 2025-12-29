@@ -80,17 +80,17 @@ const archetypes = {
   },
   "A-2-Z": {
     name: "The Trendsetter",
-    analog: "Shein / Zara",
-    description: "Fast design, high fashion/vibe, rapid turnover.",
+    analog: "BeReal / Clubhouse",
+    description: "Fast design, high vibe, rapid feature turnover.",
     motto: "Trends move fast",
     superpower:
       "You spot trends before they're trends and ship products before competitors notice.",
     fatalFlaw:
       "You might burn through trends so fast that you run out of ideas, or quality suffers.",
     teamRoster: [
-      "The Prototyper (Speed): Designs collections in days, not months.",
+      "The Prototyper (Speed): Ships features in days, not months.",
       "The Trend Spotter (Brand): Knows what's cool before influencers do.",
-      "The Fast Fashion Engineer (Velocity): Ships new styles weekly, quality is secondary.",
+      "The Feature Velocity Engineer (Velocity): Ships new features weekly, polish is secondary.",
     ],
   },
   "A-3-X": {
@@ -125,7 +125,7 @@ const archetypes = {
   },
   "A-3-Z": {
     name: "The Influencer Brand",
-    analog: "Fyre Festival",
+    analog: "WeWork / Juicero",
     description: "All hype, fast sales, zero substance (Warning: High Risk).",
     motto: "Hype over substance",
     superpower:
@@ -246,9 +246,9 @@ const archetypes = {
   },
   "B-3-Y": {
     name: "The Service Standard",
-    analog: "Ritz Carlton / Amex",
+    analog: "Zendesk / Intercom",
     description:
-      "Operations focused on high-touch, high-quality human service.",
+      "Operations focused on high-touch, high-quality customer support.",
     motto: "Service is everything",
     superpower:
       "Your service is so exceptional that customers become loyal for life.",
@@ -256,13 +256,13 @@ const archetypes = {
       "You might focus so much on service quality that you can't scale efficiently.",
     teamRoster: [
       "The Guardian (Stability): Ensures service never fails, even under pressure.",
-      "The White-Glove Operator (Service): Delivers legendary service that customers remember.",
+      "The White-Glove Operator (Service): Delivers legendary support that customers remember.",
       "The Relationship Builder (Trust): Creates connections that last decades.",
     ],
   },
   "B-3-Z": {
     name: "The Exclusive Club",
-    analog: "Soho House",
+    analog: "Clubhouse (Early) / Product Hunt",
     description: "Quality operations, high brand status, very exclusive.",
     motto: "Exclusivity is value",
     superpower:
@@ -277,7 +277,7 @@ const archetypes = {
   },
   "C-1-X": {
     name: "The Indie Hacker",
-    analog: "Levels.io",
+    analog: "Stripe (Early) / Gumroad",
     description: "One person, low cost, automated data scripts.",
     motto: "Automate everything",
     superpower:
@@ -352,7 +352,7 @@ const archetypes = {
   },
   "C-2-Z": {
     name: "The Bootstrap Brand",
-    analog: "Cards Against Humanity",
+    analog: "Mailchimp / Basecamp",
     description: "Simple design, high vibe, low cost to produce.",
     motto: "Vibe over budget",
     superpower:
@@ -367,7 +367,7 @@ const archetypes = {
   },
   "C-3-X": {
     name: "The Arbitrageur",
-    analog: "Drop-shipping",
+    analog: "eBay / Amazon Marketplace",
     description: "Low cost, ops heavy, data-driven margins.",
     motto: "Margin is king",
     superpower:
@@ -397,7 +397,7 @@ const archetypes = {
   },
   "C-3-Z": {
     name: "The Guerilla Marketer",
-    analog: "Liquid Death",
+    analog: "Duolingo / Grammarly",
     description: "Commodity product, low cost ops, 100% brand/marketing.",
     motto: "Brand is product",
     superpower:
