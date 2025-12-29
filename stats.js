@@ -1,51 +1,111 @@
 // Statistics tracking - sends results to PHP backend
 const STATS_API_URL = "stats.php"; // Update if your PHP file is in a different location
 
-function trackQuizResult(choices, archetype, path) {
-  const data = {
-    save: "1",
-    step1: choices.step1,
-    step2: choices.step2,
-    step3: choices.step3,
-    path: path,
-    archetype: archetype.name,
-    analog: archetype.analog,
-  };
+// Cache CSRF token
+let csrfToken = null;
+let tokenFetchPromise = null;
 
-  // Use form-encoded POST instead of JSON (more reliable with dev servers)
-  const formData = new URLSearchParams();
-  Object.keys(data).forEach((key) => {
-    if (data[key]) formData.append(key, data[key]);
-  });
-
-  fetch(STATS_API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: formData.toString(),
-  })
+// Fetch CSRF token
+async function fetchCsrfToken() {
+  if (csrfToken) {
+    return csrfToken;
+  }
+  
+  if (tokenFetchPromise) {
+    return tokenFetchPromise;
+  }
+  
+  tokenFetchPromise = fetch(`${STATS_API_URL}?csrf_token=1`)
     .then((response) => {
       if (!response.ok) {
-        return response.text().then((text) => {
-          throw new Error(`HTTP ${response.status}: ${text}`);
+        throw new Error(`Failed to fetch CSRF token: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((data) => {
+      csrfToken = data.csrf_token;
+      tokenFetchPromise = null;
+      return csrfToken;
+    })
+    .catch((err) => {
+      tokenFetchPromise = null;
+      console.error("Failed to fetch CSRF token:", err);
+      throw err;
+    });
+  
+  return tokenFetchPromise;
+}
+
+function trackQuizResult(choices, archetype, path) {
+  // Validate input client-side as first line of defense
+  if (!choices || !choices.step1 || !choices.step2 || !choices.step3) {
+    console.error("Invalid choices data");
+    return;
+  }
+  
+  if (!archetype || !archetype.name) {
+    console.error("Invalid archetype data");
+    return;
+  }
+  
+  if (!path || !/^[ABC]-[123]-[XYZ]$/.test(path)) {
+    console.error("Invalid path format");
+    return;
+  }
+
+  // Fetch CSRF token and then submit
+  fetchCsrfToken()
+    .then((token) => {
+      const data = {
+        save: "1",
+        csrf_token: token,
+        step1: choices.step1,
+        step2: choices.step2,
+        step3: choices.step3,
+        path: path,
+        archetype: archetype.name,
+        analog: archetype.analog,
+      };
+
+      // Use form-encoded POST
+      const formData = new URLSearchParams();
+      Object.keys(data).forEach((key) => {
+        if (data[key] !== null && data[key] !== undefined) {
+          formData.append(key, data[key]);
+        }
+      });
+
+      return fetch(STATS_API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formData.toString(),
+      });
+    })
+    .then((response) => {
+      if (!response.ok) {
+        return response.json().then((errorData) => {
+          // Handle specific error codes
+          if (response.status === 429) {
+            console.warn("Rate limit exceeded. Please wait before submitting again.");
+          } else if (response.status === 403) {
+            console.warn("Security token expired. Retrying...");
+            // Reset token and retry once
+            csrfToken = null;
+            return trackQuizResult(choices, archetype, path);
+          } else if (response.status === 409) {
+            console.warn("Duplicate submission detected.");
+          } else {
+            throw new Error(`HTTP ${response.status}: ${errorData.error || 'Unknown error'}`);
+          }
         });
       }
       return response.json();
     })
     .then((result) => {
-      if (result.success) {
-        console.log("Stats saved:", result);
-        if (result.debug) {
-          console.log("Debug info:", result.debug);
-        }
-      } else if (result.total !== undefined) {
-        console.warn("Save not detected, got stats instead:", result);
-        console.warn(
-          "This means POST data wasn't received. Check server configuration."
-        );
-      } else {
-        console.error("Unexpected response:", result);
+      if (result && result.success) {
+        console.log("Stats saved successfully");
       }
     })
     .catch((err) => {

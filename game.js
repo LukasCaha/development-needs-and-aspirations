@@ -330,6 +330,9 @@ async function renderResult(archetype, path) {
     statsHTML = `
       <div class="result-section" style="margin-top: 30px; padding-top: 30px; border-top: 2px solid #eee;">
         <h3>Community Statistics</h3>
+        <p style="margin-bottom: 15px; padding: 10px; background: #fff3cd; border-left: 4px solid #ffc107; color: #856404; font-size: 0.9em; border-radius: 4px;">
+          <strong>Note:</strong> Only your first submission counts towards these statistics. Subsequent attempts are discarded, but you can try again to explore different options.
+        </p>
         <p style="margin-bottom: 15px; color: #666;">
           <strong>${stats.total}</strong> ${
       stats.total === 1 ? "person has" : "people have"
