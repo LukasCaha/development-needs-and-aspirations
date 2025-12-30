@@ -267,7 +267,7 @@ function selectStep3(choice) {
 }
 
 // Calculate Result
-function calculateResult() {
+async function calculateResult() {
   const path = `${gameState.choices.step1}-${gameState.choices.step2}-${gameState.choices.step3}`;
   const archetype = archetypes[path];
 
@@ -276,9 +276,16 @@ function calculateResult() {
     return;
   }
 
-  // Track statistics
+  // Track statistics - wait for it to complete before rendering results
   if (typeof trackQuizResult === "function") {
-    trackQuizResult(gameState.choices, archetype, path);
+    try {
+      await trackQuizResult(gameState.choices, archetype, path);
+      // Small delay to ensure database has updated
+      await new Promise((resolve) => setTimeout(resolve, 100));
+    } catch (err) {
+      // Continue even if tracking fails
+      console.error("Failed to track stats, continuing anyway:", err);
+    }
   }
 
   renderResult(archetype, path);
@@ -347,22 +354,51 @@ async function renderResult(archetype, path) {
         </p>
         
         <div style="margin-top: 20px;">
-          <h4 style="font-size: 1em; margin-bottom: 10px; color: #444;">Most Popular Archetypes:</h4>
+          <h4 style="font-size: 1em; margin-bottom: 10px; color: #444;">All Archetypes:</h4>
           <ul style="list-style: none; padding: 0;">
-            ${stats.archetypes
-              .slice(0, 5)
-              .map((a) => {
-                const percent = ((a.count / stats.total) * 100).toFixed(1);
-                const isUser = a.archetype === archetype.name;
-                return `<li style="margin: 8px 0; padding: 8px; background: ${
-                  isUser ? "#e8f5e9" : "#f9f9f9"
-                }; border-left: 3px solid ${isUser ? "#4caf50" : "#ddd"};">
+            ${(() => {
+              // Get all archetype names from the archetypes object
+              const allArchetypeNames = Object.values(archetypes).map(
+                (a) => a.name
+              );
+
+              // Create a map of archetype name to count from stats
+              const statsMap = new Map();
+              stats.archetypes.forEach((a) => {
+                statsMap.set(a.archetype, a.count);
+              });
+
+              // Create complete list with all archetypes, including 0 counts
+              const completeList = allArchetypeNames.map((name) => ({
+                archetype: name,
+                count: statsMap.get(name) || 0,
+              }));
+
+              // Sort by count (descending), then by name (ascending)
+              completeList.sort((a, b) => {
+                if (b.count !== a.count) {
+                  return b.count - a.count;
+                }
+                return a.archetype.localeCompare(b.archetype);
+              });
+
+              return completeList
+                .map((a) => {
+                  const percent =
+                    stats.total > 0
+                      ? ((a.count / stats.total) * 100).toFixed(1)
+                      : "0.0";
+                  const isUser = a.archetype === archetype.name;
+                  return `<li style="margin: 8px 0; padding: 8px; background: ${
+                    isUser ? "#e8f5e9" : "#f9f9f9"
+                  }; border-left: 3px solid ${isUser ? "#4caf50" : "#ddd"};">
                 <strong>${a.archetype}</strong> - ${a.count} ${
-                  a.count === 1 ? "vote" : "votes"
-                } (${percent}%)
+                    a.count === 1 ? "vote" : "votes"
+                  } (${percent}%)
               </li>`;
-              })
-              .join("")}
+                })
+                .join("");
+            })()}
           </ul>
         </div>
       </div>
