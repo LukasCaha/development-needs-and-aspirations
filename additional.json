@@ -1,0 +1,941 @@
+{
+  "A-1-X": {
+    "media_mentions": [
+      "Move fast and break things (Facebook Era)",
+      "Data is the new oil",
+      "Software eats the world"
+    ],
+    "analogs": [
+      "TikTok",
+      "OpenAI",
+      "Uber (Algorithm/Matching)",
+      "Google (Early Search)",
+      "Palantir",
+      "Jane Street (Trading)",
+      "Renaissance Technologies",
+      "Netflix (Recommendation Engine)",
+      "Facebook (The News Feed)",
+      "ByteDance"
+    ],
+    "founders": [
+      "Zhang Yiming (ByteDance)",
+      "Sam Altman (OpenAI)",
+      "Travis Kalanick (Uber)",
+      "Mark Zuckerberg (Facebook)",
+      "Reed Hastings (Netflix)"
+    ],
+    "movies": ["The Social Network", "Super Pumped", "The Great Hack"],
+    "books": [
+      "The Quants",
+      "Super Pumped: The Battle for Uber",
+      "An Ugly Truth",
+      "The Age of Surveillance Capitalism"
+    ],
+    "articles": [
+      "Paul Graham: 'Do Things that Don't Scale' (Counter-intuitive origin)",
+      "Mark Zuckerberg's Letter to Investors (2012)"
+    ],
+    "other_sources": [
+      "Netflix Tech Blog (Engineering Culture)",
+      "Uber Engineering Blog"
+    ]
+  },
+  "A-1-Y": {
+    "media_mentions": [
+      "The Network Effect",
+      "Metcalfe's Law",
+      "No Ads, No Games, No Gimmicks"
+    ],
+    "analogs": [
+      "WhatsApp",
+      "Telegram",
+      "Zoom",
+      "Discord",
+      "Skype",
+      "Dropbox",
+      "Slack",
+      "WeChat",
+      "Messenger",
+      "Signal"
+    ],
+    "founders": [
+      "Jan Koum (WhatsApp)",
+      "Pavel Durov (Telegram)",
+      "Eric Yuan (Zoom)",
+      "Jason Citron (Discord)",
+      "Stewart Butterfield (Slack)"
+    ],
+    "movies": [
+      "The Playlist (Spotify - tech aspect)",
+      "Silicon Valley (TV Show - Pied Piper algo)"
+    ],
+    "books": [
+      "The Launch Pad: Inside Y Combinator",
+      "Cold Start Problem (Andrew Chen)",
+      "Viral Loop"
+    ],
+    "articles": [
+      "Jan Koum's sticky note: 'No Ads! No Games! No Gimmicks!'",
+      "Paul Graham: 'Startup = Growth'"
+    ],
+    "other_sources": ["Y Combinator Library", "A16Z Network Effects Deck"]
+  },
+  "A-1-Z": {
+    "media_mentions": [
+      "FOMO (Fear Of Missing Out)",
+      "Do it for the Vine",
+      "Ephemeral Content"
+    ],
+    "analogs": [
+      "Snapchat",
+      "Meerkat",
+      "Vine",
+      "Yo",
+      "MSCHF",
+      "HQ Trivia",
+      "Bored Ape Yacht Club",
+      "Musical.ly",
+      "BeReal"
+    ],
+    "founders": [
+      "Evan Spiegel (Snapchat)",
+      "Rus Yusupov (Vine/HQ)",
+      "Dom Hofmann (Vine)",
+      "Gabriel Leydon (Limit Break)"
+    ],
+    "movies": ["We Live in Public", "Fyre (Tech hype aspect)"],
+    "books": [
+      "Chaos Monkeys",
+      "How to Turn Down a Billion Dollars: The Snapchat Story"
+    ],
+    "articles": [
+      "Evan Spiegel's leaked emails",
+      "The rise and fall of HQ Trivia"
+    ],
+    "other_sources": [
+      "Snapchat's S-1 Filing (Focus on Camera Company)",
+      "MSCHF Drops"
+    ]
+  },
+  "A-2-X": {
+    "media_mentions": [
+      "Growth Hacking",
+      "A/B Testing everything",
+      "Dark Patterns"
+    ],
+    "analogs": [
+      "Booking.com",
+      "Zynga",
+      "Temu",
+      "Shein",
+      "Wish",
+      "Groupon",
+      "Expedia",
+      "TripAdvisor",
+      "Tinder (Gamification aspect)",
+      "Candy Crush (King)"
+    ],
+    "founders": [
+      "Mark Pincus (Zynga)",
+      "Andrew Mason (Groupon)",
+      "Colin Huang (Pinduoduo/Temu)"
+    ],
+    "movies": [
+      "Review (TV Show - parody of rating everything)",
+      "Click (Conceptually)"
+    ],
+    "books": [
+      "Hacking Growth",
+      "Hooked: How to Build Habit-Forming Products",
+      "Don't Make Me Think"
+    ],
+    "articles": [
+      "Andrew Chen: 'Growth Hacker is the new VP Marketing'",
+      "Booking.com design blog (Experimentation culture)"
+    ],
+    "other_sources": ["Reforge Course Materials", "GrowthHackers Community"]
+  },
+  "A-2-Y": {
+    "media_mentions": [
+      "Swipe Right",
+      "The Sharing Economy",
+      "Social Discovery"
+    ],
+    "analogs": [
+      "Tinder",
+      "Bumble",
+      "Hinge",
+      "Grindr",
+      "Couchsurfing",
+      "Meetup",
+      "OkCupid",
+      "Match Group",
+      "Facebook (Campus era)",
+      "MySpace"
+    ],
+    "founders": [
+      "Sean Rad (Tinder)",
+      "Whitney Wolfe Herd (Bumble)",
+      "Chris DeWolfe (MySpace)",
+      "Mark Zuckerberg (Early Facebook)"
+    ],
+    "movies": ["Swiped", "The Social Network", "Catfish"],
+    "books": ["Dataclysm", "Modern Romance", "The Boy Kings"],
+    "articles": [
+      "Vanity Fair: 'Tinder and the Dawn of the Dating Apocalypse'",
+      "Whitney Wolfe Herd on 'Make the First Move'"
+    ],
+    "other_sources": [
+      "Match Group Earnings Calls",
+      "Dating App demographics reports"
+    ]
+  },
+  "A-2-Z": {
+    "media_mentions": ["Drop Culture", "Vibe Shift", "The Anti-Instagram"],
+    "analogs": [
+      "BeReal",
+      "Clubhouse",
+      "Poparazzi",
+      "Dispo",
+      "Gas",
+      "Houseparty",
+      "Locket",
+      "Saturday",
+      "MTV (Analogy)",
+      "Supreme (Brand analogy)"
+    ],
+    "founders": [
+      "Alexis Barreyat (BeReal)",
+      "Paul Davison (Clubhouse)",
+      "David Dobrik (Dispo)"
+    ],
+    "movies": ["Ingrid Goes West", "Mainstream"],
+    "books": ["Contagious: Why Things Catch On", "Hit Makers"],
+    "articles": [
+      "The Verge: 'BeReal and the end of the curated feed'",
+      "Essays on 'Vibe Capital'"
+    ],
+    "other_sources": null
+  },
+  "A-3-X": {
+    "media_mentions": [
+      "Regulatory Arbitrage",
+      "Ask Forgiveness, Not Permission",
+      "Gig Economy"
+    ],
+    "analogs": [
+      "Uber (Early)",
+      "Lyft",
+      "Lime",
+      "Bird",
+      "GoPuff",
+      "Gorillas",
+      "Getir",
+      "Travis Kalanick's CloudKitchens",
+      "Zenefits (Early)",
+      "Napster"
+    ],
+    "founders": [
+      "Travis Kalanick (Uber)",
+      "Logan Green (Lyft)",
+      "Parker Conrad (Zenefits/Rippling)",
+      "Shawn Fanning (Napster)"
+    ],
+    "movies": ["Super Pumped", "Downloaded (Napster doc)"],
+    "books": ["The Upstarts", "Wild Ride", "Super Pumped"],
+    "articles": [
+      "Bill Gurley: 'The Run on the Bank' (Benchmark vs Travis)",
+      "NYT: 'How Uber Deceives the Authorities Worldwide' (Greyball)"
+    ],
+    "other_sources": ["Uber's 14 Cultural Values (The old ones)"]
+  },
+  "A-3-Y": {
+    "media_mentions": [
+      "Last Mile Delivery",
+      "Platform Economy",
+      "Algorithmic Management"
+    ],
+    "analogs": [
+      "DoorDash",
+      "Instacart",
+      "TaskRabbit",
+      "Deliveroo",
+      "Postmates",
+      "Wolt",
+      "Rappi",
+      "Grab",
+      "Gojek",
+      "Uber Eats"
+    ],
+    "founders": [
+      "Tony Xu (DoorDash)",
+      "Apoorva Mehta (Instacart)",
+      "Will Shu (Deliveroo)",
+      "Bastian Lehmann (Postmates)"
+    ],
+    "movies": [
+      "Sorry We Missed You (Critique of the model)",
+      "Super Size Me 2 (Fast food logistics)"
+    ],
+    "books": ["Labor in the Age of Platform Capitalism", "Driven"],
+    "articles": [
+      "DoorDash Blog: 'The Dash'",
+      "Instacart's initial pivot stories"
+    ],
+    "other_sources": null
+  },
+  "A-3-Z": {
+    "media_mentions": [
+      "Community Adjusted EBITDA",
+      "Cult of Personality",
+      "Reality Distortion Field (Dark Side)"
+    ],
+    "analogs": [
+      "WeWork",
+      "Juicero",
+      "Fyre Media",
+      "OYO",
+      "Theranos",
+      "Fast",
+      "Nikola",
+      "Yeezy (Business Model)",
+      "Goop",
+      "Trump Organization"
+    ],
+    "founders": [
+      "Adam Neumann (WeWork)",
+      "Doug Evans (Juicero)",
+      "Elizabeth Holmes (Theranos)",
+      "Billy McFarland (Fyre)",
+      "Trevor Milton (Nikola)"
+    ],
+    "movies": [
+      "WeCrashed",
+      "The Inventor: Out for Blood in Silicon Valley",
+      "Fyre: The Greatest Party That Never Happened",
+      "The Dropout"
+    ],
+    "books": [
+      "The Cult of We",
+      "Bad Blood",
+      "Billion Dollar Loser",
+      "My Friend Anna"
+    ],
+    "articles": [
+      "Matt Levine (Money Stuff) on WeWork",
+      "Vanity Fair on Adam Neumann"
+    ],
+    "other_sources": ["WeWork S-1 Filing (The 'Dedication' section)"]
+  },
+  "B-1-X": {
+    "media_mentions": ["Moonshots", "10x Thinking", "Quantum Supremacy"],
+    "analogs": [
+      "Google (DeepMind/Search)",
+      "NVIDIA",
+      "Intel",
+      "Boston Dynamics",
+      "SpaceX",
+      "Palantir",
+      "Databricks",
+      "Snowflake",
+      "Cloudflare",
+      "AWS (Infrastructure)"
+    ],
+    "founders": [
+      "Larry Page & Sergey Brin (Google)",
+      "Jensen Huang (NVIDIA)",
+      "Demis Hassabis (DeepMind)",
+      "Elon Musk (SpaceX)",
+      "Alex Karp (Palantir)"
+    ],
+    "movies": [
+      "AlphaGo",
+      "The Internship (Google culture)",
+      "Ex Machina (Fiction, but fits)"
+    ],
+    "books": ["In The Plex", "Genius Makers", "The Chip War", "Liftoff"],
+    "articles": [
+      "Jeff Dean: 'Google infrastructure for deep learning'",
+      "The Google PageRank Paper"
+    ],
+    "other_sources": ["Google Research Publications", "SpaceX Launch Manifests"]
+  },
+  "B-1-Y": {
+    "media_mentions": [
+      "Privacy by Design",
+      "End-to-End Encryption",
+      "Zero Knowledge"
+    ],
+    "analogs": [
+      "Signal",
+      "1Password",
+      "ProtonMail",
+      "Tor Project",
+      "DuckDuckGo",
+      "Ledger",
+      "Trezor",
+      "LastPass",
+      "Yubico",
+      "Brave Browser"
+    ],
+    "founders": [
+      "Moxie Marlinspike (Signal)",
+      "Andy Yen (Proton)",
+      "Gabriel Weinberg (DuckDuckGo)",
+      "Edward Snowden (Advocate)"
+    ],
+    "movies": ["Citizenfour", "Snowden", "The Imitation Game"],
+    "books": [
+      "Permanent Record",
+      "Countdown to Zero Day",
+      "Sandworm",
+      "Tracers in the Dark"
+    ],
+    "articles": ["Moxie Marlinspike Blog", "The ProtonMail Manifesto"],
+    "other_sources": [
+      "EFF (Electronic Frontier Foundation) Ratings",
+      "Security Audits"
+    ]
+  },
+  "B-1-Z": {
+    "media_mentions": [
+      "Software Craftsmanship",
+      "Product-Led Growth",
+      "The New Standard"
+    ],
+    "analogs": [
+      "Linear",
+      "Notion",
+      "Raycast",
+      "Vercel",
+      "Stripe (Dev Experience)",
+      "Arc (The Browser Company)",
+      "Panic",
+      "Things 3 (Cultured Code)",
+      "Framer",
+      "Superhuman"
+    ],
+    "founders": [
+      "Karri Saarinen (Linear)",
+      "Ivan Zhao (Notion)",
+      "Guillermo Rauch (Vercel)",
+      "Patrick Collison (Stripe)",
+      "Josh Miller (Arc)"
+    ],
+    "movies": ["Jiro Dreams of Sushi (Spiritual Analog)", "Objectified"],
+    "books": [
+      "The Design of Everyday Things",
+      "Creative Selection",
+      "Shape Up (Basecamp, but applies here)"
+    ],
+    "articles": [
+      "The Linear Method",
+      "Notion's Design Philosophy",
+      "Patrick Collison's Reading List"
+    ],
+    "other_sources": ["Linear's Changelog", "Stripe API Documentation"]
+  },
+  "B-2-X": {
+    "media_mentions": [
+      "Personalization at Scale",
+      "The Algorithm Knows You",
+      "Binge Watching"
+    ],
+    "analogs": [
+      "Spotify",
+      "Netflix",
+      "Pinterest",
+      "TikTok (Algorithm View)",
+      "Amazon Prime Video",
+      "YouTube (Recommendation)",
+      "Pandora",
+      "Stitch Fix",
+      "Goodreads"
+    ],
+    "founders": [
+      "Daniel Ek (Spotify)",
+      "Reed Hastings (Netflix)",
+      "Ben Silbermann (Pinterest)",
+      "Katrina Lake (Stitch Fix)"
+    ],
+    "movies": ["The Playlist (Netflix Series)", "High Fidelity (Spiritual)"],
+    "books": ["Spotify Teardown", "No Rules Rules", "That Will Never Work"],
+    "articles": [
+      "Netflix Tech Blog: 'Artwork Personalization'",
+      "Spotify Engineering: 'Discover Weekly'"
+    ],
+    "other_sources": ["Netflix Culture Deck"]
+  },
+  "B-2-Y": {
+    "media_mentions": ["Belong Anywhere", "The Trust Economy", "Peer-to-Peer"],
+    "analogs": [
+      "Airbnb",
+      "Etsy",
+      "Patreon",
+      "Kickstarter",
+      "LinkedIn",
+      "Hinge (The 'Designed to be Deleted' era)",
+      "Rover",
+      "TrustedHousesitters",
+      "Nextdoor"
+    ],
+    "founders": [
+      "Brian Chesky (Airbnb)",
+      "Joe Gebbia (Airbnb)",
+      "Jack Conte (Patreon)",
+      "Reid Hoffman (LinkedIn)"
+    ],
+    "movies": [
+      "Abstract: The Art of Design (Ian Spalter/Bio)",
+      "Design Is One (Vignelli)"
+    ],
+    "books": ["The Airbnb Story", "The Alliance", "Start with Why"],
+    "articles": [
+      "Brian Chesky: '7 Star Design'",
+      "Paul Graham: 'Do things that don't scale' (Airbnb story)"
+    ],
+    "other_sources": ["Airbnb Design Blog", "Etsy's seller handbook"]
+  },
+  "B-2-Z": {
+    "media_mentions": [
+      "Think Different",
+      "Designed in California",
+      "Premium Ecosystem"
+    ],
+    "analogs": [
+      "Apple",
+      "Tesla",
+      "Peloton",
+      "Bang & Olufsen",
+      "Teenage Engineering",
+      "Dyson",
+      "Leica",
+      "Nest",
+      "Sonos",
+      "Polestar"
+    ],
+    "founders": [
+      "Steve Jobs (Apple)",
+      "Jony Ive (Apple Design)",
+      "Elon Musk (Tesla)",
+      "James Dyson",
+      "Tony Fadell (Nest)"
+    ],
+    "movies": [
+      "Steve Jobs (Sorkin)",
+      "Jobs (Kutcher)",
+      "Rams (Dieter Rams Doc)"
+    ],
+    "books": [
+      "Jony Ive: The Genius Behind Apple's Greatest Products",
+      "Steve Jobs (Isaacson)",
+      "Insanely Simple",
+      "Build (Tony Fadell)"
+    ],
+    "articles": [
+      "Jony Ive interviews in Vanity Fair",
+      "Apple's Human Interface Guidelines"
+    ],
+    "other_sources": ["Apple Keynotes"]
+  },
+  "B-3-X": {
+    "media_mentions": [
+      "The Everything Store",
+      "Operational Excellence",
+      "Supply Chain Management"
+    ],
+    "analogs": [
+      "Amazon",
+      "FedEx",
+      "DHL",
+      "Flexport",
+      "Maersk (Tech arm)",
+      "Ocado",
+      "Coupang",
+      "Alibaba",
+      "JD.com",
+      "UPS"
+    ],
+    "founders": [
+      "Jeff Bezos (Amazon)",
+      "Ryan Petersen (Flexport)",
+      "Jack Ma (Alibaba)",
+      "Fred Smith (FedEx)"
+    ],
+    "movies": ["Cast Away (FedEx branding)", "The Founder (McDonalds systems)"],
+    "books": [
+      "The Everything Store",
+      "Amazon Unbound",
+      "Arriving Today",
+      "Working Backwards"
+    ],
+    "articles": ["Jeff Bezos 1997 Shareholder Letter", "The Amazon Flywheel"],
+    "other_sources": ["Amazon Leadership Principles"]
+  },
+  "B-3-Y": {
+    "media_mentions": [
+      "Customer Obsession",
+      "Delivering Happiness",
+      "Support as a Service"
+    ],
+    "analogs": [
+      "Zendesk",
+      "Intercom",
+      "Zappos",
+      "Chewy",
+      "American Express (Tech arm)",
+      "Ritz-Carlton (Philosophy)",
+      "Disney (Parks division)",
+      "Rackspace (Fanatical Support)",
+      "Trader Joe's (Culture)"
+    ],
+    "founders": [
+      "Tony Hsieh (Zappos)",
+      "Ryan Cohen (Chewy)",
+      "Eoghan McCabe (Intercom)"
+    ],
+    "movies": [
+      "The Grand Budapest Hotel (Service ethos)",
+      "Ford v Ferrari (Focus on the machine/team)"
+    ],
+    "books": [
+      "Delivering Happiness",
+      "The Zappos Experience",
+      "Setting the Table (Danny Meyer)"
+    ],
+    "articles": ["Intercom on Product Management", "Zappos Culture Book"],
+    "other_sources": null
+  },
+  "B-3-Z": {
+    "media_mentions": [
+      "Invite Only",
+      "Velvet Rope Strategy",
+      "Waitlist Marketing"
+    ],
+    "analogs": [
+      "Clubhouse (Early)",
+      "Product Hunt",
+      "The League",
+      "Raya",
+      "Soho House",
+      "Superhuman (Onboarding)",
+      "Ferrari",
+      "Hermès",
+      "MasterClass"
+    ],
+    "founders": [
+      "Rahul Vohra (Superhuman)",
+      "Ryan Hoover (Product Hunt)",
+      "Paul Davison (Clubhouse)"
+    ],
+    "movies": ["The Great Gatsby", "Succession (Lifestyle)"],
+    "books": ["Tribes (Seth Godin)", "The 22 Immutable Laws of Branding"],
+    "articles": [
+      "Rahul Vohra on Superhuman's Game Design",
+      "Kevin Kelly: '1000 True Fans'"
+    ],
+    "other_sources": ["Product Hunt Launch Guide"]
+  },
+  "C-1-X": {
+    "media_mentions": [
+      "Indie Hackers",
+      "Build in Public",
+      "MRR (Monthly Recurring Revenue)"
+    ],
+    "analogs": [
+      "Stripe (Early)",
+      "Gumroad",
+      "Levels.fyi",
+      "NomadList",
+      "RemoteOK",
+      "BuiltWith",
+      "Carrd",
+      "Bannerbear",
+      "Photopea",
+      "Plenty of Fish (Early)"
+    ],
+    "founders": [
+      "Pieter Levels (NomadList)",
+      "Sahil Lavingia (Gumroad)",
+      "AJ (Carrd)",
+      "Markus Frind (Plenty of Fish)"
+    ],
+    "movies": ["Indie Game: The Movie", "Startup.com"],
+    "books": [
+      "The Minimalist Entrepreneur",
+      "Company of One",
+      "Make: The Indie Maker Handbook",
+      "Million Dollar Weekend"
+    ],
+    "articles": [
+      "Sahil Lavingia: 'Reflecting on My Failure to Build a Billion-Dollar Company'",
+      "Pieter Levels' Blog"
+    ],
+    "other_sources": ["IndieHackers.com", "Hacker News"]
+  },
+  "C-1-Y": {
+    "media_mentions": [
+      "Open Source",
+      "Information wants to be free",
+      "Decentralized"
+    ],
+    "analogs": [
+      "Linux",
+      "Wikipedia",
+      "Mozilla",
+      "WordPress",
+      "Git",
+      "Arduino",
+      "Blender",
+      "VLC Media Player",
+      "Obsidian",
+      "Anki"
+    ],
+    "founders": [
+      "Linus Torvalds (Linux)",
+      "Jimmy Wales (Wikipedia)",
+      "Matt Mullenweg (WordPress)",
+      "Mitchell Baker (Mozilla)"
+    ],
+    "movies": [
+      "The Internet's Own Boy (Aaron Swartz)",
+      "Revolution OS",
+      "Truth in Numbers"
+    ],
+    "books": [
+      "The Cathedral and the Bazaar",
+      "Just for Fun",
+      "Free Software, Free Society"
+    ],
+    "articles": ["The GNU Manifesto", "Eric S. Raymond essays"],
+    "other_sources": ["GitHub Trending", "Electronic Frontier Foundation"]
+  },
+  "C-1-Z": {
+    "media_mentions": ["Fake it till you make it", "Vaporware", "Ponzi Scheme"],
+    "analogs": [
+      "Theranos",
+      "Nikola",
+      "FTX",
+      "Bitconnect",
+      "Magic Leap (Early Hype)",
+      "Clinkle",
+      "Ubeam",
+      "Quibi"
+    ],
+    "founders": [
+      "Elizabeth Holmes (Theranos)",
+      "Sam Bankman-Fried (FTX)",
+      "Trevor Milton (Nikola)",
+      "Do Kwon (Terra)"
+    ],
+    "movies": ["The Inventor", "Bad Blood (Upcoming)", "Fyre"],
+    "books": [
+      "Bad Blood",
+      "Going Infinite",
+      "Billion Dollar Whale",
+      "The Smartest Guys in the Room (Enron)"
+    ],
+    "articles": ["John Carreyrou WSJ Exposes", "CoffeeZilla Investigations"],
+    "other_sources": ["SEC Enforcements"]
+  },
+  "C-2-X": {
+    "media_mentions": [
+      "Democratizing Design",
+      "No-Code Revolution",
+      "Drag and Drop"
+    ],
+    "analogs": [
+      "Canva",
+      "Wix",
+      "Squarespace",
+      "Shopify",
+      "Webflow",
+      "Linktree",
+      "Typeform",
+      "Figma (Template aspect)",
+      "Bubble",
+      "Airtable"
+    ],
+    "founders": [
+      "Melanie Perkins (Canva)",
+      "Tobi Lütke (Shopify)",
+      "Vlad Magdalin (Webflow)",
+      "Avishai Abrahami (Wix)"
+    ],
+    "movies": [
+      "Abstract (Episode on democratization)",
+      "Print the Legend (MakerBot - democratizing 3D print)"
+    ],
+    "books": ["Sprint", "User Friendly", "Lean UX"],
+    "articles": [
+      "Melanie Perkins: 'The goal is to empower the world to design'",
+      "Webflow's No-Code Manifesto"
+    ],
+    "other_sources": ["Canva Design School"]
+  },
+  "C-2-Y": {
+    "media_mentions": [
+      "The Front Page of the Internet",
+      "Ugly but Useful",
+      "Web 1.0 Aesthetics"
+    ],
+    "analogs": [
+      "Reddit",
+      "Discord",
+      "Craigslist",
+      "4chan",
+      "Stack Overflow",
+      "Twitch",
+      "Hacker News",
+      "Drudge Report",
+      "Berkshire Hathaway Website",
+      "Minecraft (Visual style)"
+    ],
+    "founders": [
+      "Alexis Ohanian (Reddit)",
+      "Steve Huffman (Reddit)",
+      "Craig Newmark (Craigslist)",
+      "Jeff Atwood (Stack Overflow)"
+    ],
+    "movies": ["We Are Legion", "Feels Good Man"],
+    "books": [
+      "We Are the Nerds",
+      "Without Their Permission",
+      "Because Internet"
+    ],
+    "articles": [
+      "Craig Newmark on why Craigslist hasn't changed",
+      "Joel Spolsky Blog"
+    ],
+    "other_sources": ["r/InternetIsBeautiful"]
+  },
+  "C-2-Z": {
+    "media_mentions": ["Rework", "Small Giants", "Profitable from Day 1"],
+    "analogs": [
+      "Mailchimp",
+      "Basecamp (37Signals)",
+      "Cards Against Humanity",
+      "Dbrand",
+      "Liquid Death",
+      "Oatly",
+      "Ghost",
+      "ConvertKit",
+      "Patagonia"
+    ],
+    "founders": [
+      "Ben Chestnut (Mailchimp)",
+      "Jason Fried (Basecamp)",
+      "DHH (Basecamp)",
+      "Mike Cessario (Liquid Death)",
+      "Nathan Barry (ConvertKit)"
+    ],
+    "movies": ["Art & Copy", "Helvetica"],
+    "books": [
+      "Rework",
+      "It Doesn't Have to Be Crazy at Work",
+      "Small Giants",
+      "Let My People Go Surfing"
+    ],
+    "articles": [
+      "Signal v. Noise (Basecamp Blog)",
+      "Mailchimp's 'Fail Harder'"
+    ],
+    "other_sources": ["Basecamp Handbook"]
+  },
+  "C-3-X": {
+    "media_mentions": [
+      "Passive Income",
+      "Retail Arbitrage",
+      "Four Hour Workweek"
+    ],
+    "analogs": [
+      "eBay",
+      "Amazon Marketplace",
+      "Thrasio",
+      "Skyscanner",
+      "Kayak",
+      "Priceline",
+      "Honey",
+      "CamelCamelCamel",
+      "Flippa",
+      "Empire Flippers"
+    ],
+    "founders": [
+      "Pierre Omidyar (eBay)",
+      "Tim Ferriss (Muse)",
+      "Jay Walker (Priceline)"
+    ],
+    "movies": [
+      "War Dogs (Arbitrage aspect)",
+      "The Big Short (Market inefficiency)"
+    ],
+    "books": ["The 4-Hour Workweek", "Rich Dad Poor Dad", "The Long Tail"],
+    "articles": ["Wired: 'The Long Tail'", "Kevin Kelly: 'Better Than Free'"],
+    "other_sources": ["JungleScout Data", "Fulfillment by Amazon (FBA) Guides"]
+  },
+  "C-3-Y": {
+    "media_mentions": ["The Commons", "Public Goods", "Universal Access"],
+    "analogs": [
+      "Craigslist",
+      "Wikipedia",
+      "Archive.org",
+      "Khan Academy",
+      "PBS",
+      "NPR",
+      "Mozilla",
+      "Creative Commons",
+      "Library Genesis",
+      "Sci-Hub"
+    ],
+    "founders": [
+      "Craig Newmark (Craigslist)",
+      "Sal Khan (Khan Academy)",
+      "Brewster Kahle (Internet Archive)"
+    ],
+    "movies": [
+      "Ex Libris: The New York Public Library",
+      "Waiting for Superman"
+    ],
+    "books": ["The One World Schoolhouse", "Common Wealth"],
+    "articles": [
+      "Aaron Swartz's Guerilla Open Access Manifesto",
+      "Bill Gates on Khan Academy"
+    ],
+    "other_sources": ["Internet Archive Wayback Machine"]
+  },
+  "C-3-Z": {
+    "media_mentions": [
+      "Guerrilla Marketing",
+      "Viral Stunts",
+      "Brand Personality"
+    ],
+    "analogs": [
+      "Duolingo",
+      "Grammarly",
+      "Dollar Shave Club",
+      "Old Spice",
+      "Red Bull",
+      "Mint Mobile",
+      "RyanAir (The Twitter account)",
+      "Wendy's (Twitter)",
+      "Surreal Cereal",
+      "Morning Brew"
+    ],
+    "founders": [
+      "Luis von Ahn (Duolingo)",
+      "Michael Dubin (Dollar Shave Club)",
+      "Ryan Reynolds (Mint Mobile)",
+      "Dietrich Mateschitz (Red Bull)"
+    ],
+    "movies": ["Thank You for Smoking (Spin/Marketing)", "Crazy People"],
+    "books": ["Contagious", "Purple Cow", "Trust Me, I'm Lying"],
+    "articles": [
+      "Ryan Reynolds on 'Fastvertising'",
+      "Duolingo's unhinged TikTok strategy explained"
+    ],
+    "other_sources": [
+      "Duolingo Push Notifications (Meme status)",
+      "Wendy's Roast Tweets"
+    ]
+  }
+}

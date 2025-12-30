@@ -1,0 +1,353 @@
+{
+  "A-1-X": {
+    "name": "The Algo-Racer",
+    "analog": "TikTok / OpenAI",
+    "description": "Ship algorithms fast. If it breaks, fix it later. Data rules all.",
+    "motto": "Ship fast, fix later",
+    "superpower": "You move at the speed of thought, shipping features before competitors even start planning.",
+    "fatalFlaw": "Technical debt accumulates like compound interest, and one day it will collapse.",
+    "teamRoster": [
+      "The Hacker (Speed): Writes code at 3 AM, ships features daily, tests are optional.",
+      "The Data Scientist (Logic): Builds recommendation engines that learn faster than humans can code.",
+      "The Growth Engineer (Velocity): Optimizes for speed over stability, breaks things to learn faster."
+    ]
+  },
+  "A-1-Y": {
+    "name": "The Viral Utility",
+    "analog": "WhatsApp",
+    "description": "Fast engineering, low cost, massive scale via network effects.",
+    "motto": "Network effects win",
+    "superpower": "Every user makes your product more valuable. Growth compounds exponentially.",
+    "fatalFlaw": "You might scale so fast that infrastructure breaks, and trust erodes overnight.",
+    "teamRoster": [
+      "The Hacker (Speed): Ships features that enable viral growth, code quality is secondary.",
+      "The Community Builder (Trust): Focuses on making connections seamless and trustworthy.",
+      "The Scale Engineer (Efficiency): Builds systems that handle millions with minimal cost."
+    ]
+  },
+  "A-1-Z": {
+    "name": "The Hype Rocket",
+    "analog": "Snapchat",
+    "description": "Features are disposable. It's about the cool factor and speed.",
+    "motto": "Cool factor first",
+    "superpower": "You capture attention and create cultural moments faster than anyone else.",
+    "fatalFlaw": "Trends fade. When the hype dies, you might have no substance to fall back on.",
+    "teamRoster": [
+      "The Hacker (Speed): Ships features that feel magical, even if they break tomorrow.",
+      "The Trendsetter (Brand): Understands what's cool before anyone else does.",
+      "The Growth Hacker (Velocity): Creates viral loops that spread faster than news."
+    ]
+  },
+  "A-2-X": {
+    "name": "The Growth Hacker",
+    "analog": "Booking.com",
+    "description": "Design that is ugly but optimized by data to convert fast.",
+    "motto": "Data beats beauty",
+    "superpower": "You convert users at rates that make beautiful competitors cry. Every pixel is tested.",
+    "fatalFlaw": "You might optimize yourself into a soulless conversion machine that users hate.",
+    "teamRoster": [
+      "The Prototyper (Speed): Sketches fast, tests faster, ships what converts.",
+      "The Data Analyst (Logic): Knows exactly which button color increases revenue by 3%.",
+      "The Conversion Optimizer (Velocity): A/B tests everything, even the logo."
+    ]
+  },
+  "A-2-Y": {
+    "name": "The Social Marketplace",
+    "analog": "Tinder",
+    "description": "Fast design iterations, purely focused on connecting people.",
+    "motto": "Connect people fast",
+    "superpower": "You create connections that change lives. Network effects make you unstoppable.",
+    "fatalFlaw": "You might move so fast that trust and safety become afterthoughts, leading to scandals.",
+    "teamRoster": [
+      "The Prototyper (Speed): Designs interfaces that make connections feel instant.",
+      "The Community Architect (Trust): Builds systems that make strangers trust each other.",
+      "The Matchmaker (Velocity): Focuses on speed of connection over depth of experience."
+    ]
+  },
+  "A-2-Z": {
+    "name": "The Trendsetter",
+    "analog": "BeReal / Clubhouse",
+    "description": "Fast design, high vibe, rapid feature turnover.",
+    "motto": "Trends move fast",
+    "superpower": "You spot trends before they're trends and ship products before competitors notice.",
+    "fatalFlaw": "You might burn through trends so fast that you run out of ideas, or quality suffers.",
+    "teamRoster": [
+      "The Prototyper (Speed): Ships features in days, not months.",
+      "The Trend Spotter (Brand): Knows what's cool before influencers do.",
+      "The Feature Velocity Engineer (Velocity): Ships new features weekly, polish is secondary."
+    ]
+  },
+  "A-3-X": {
+    "name": "The Ruthless Optimiser",
+    "analog": "Uber (Early)",
+    "description": "Aggressive ops, data-driven pricing, move fast, ignore laws.",
+    "motto": "Move fast, break rules",
+    "superpower": "You disrupt industries by moving faster than regulations can catch up.",
+    "fatalFlaw": "You might break so many rules that you face existential legal threats.",
+    "teamRoster": [
+      "The Hustler (Speed): Moves fast, breaks things, asks for forgiveness later.",
+      "The Data Scientist (Logic): Optimizes pricing and routes with ruthless efficiency.",
+      "The Disruptor (Velocity): Ignores traditional boundaries, focuses on growth at all costs."
+    ]
+  },
+  "A-3-Y": {
+    "name": "The Gig-Scale",
+    "analog": "DoorDash",
+    "description": "Speed + Logistics + People. It's messy but it works.",
+    "motto": "Scale through people",
+    "superpower": "You leverage human networks to scale faster than pure tech companies.",
+    "fatalFlaw": "You might scale so fast that you can't maintain quality, and workers revolt.",
+    "teamRoster": [
+      "The Hustler (Speed): Recruits workers faster than competitors can respond.",
+      "The Community Builder (Trust): Makes strangers trust each other for deliveries.",
+      "The Scale Operator (Velocity): Manages chaos at scale, fixes problems as they arise."
+    ]
+  },
+  "A-3-Z": {
+    "name": "The Influencer Brand",
+    "analog": "WeWork / Juicero",
+    "description": "All hype, fast sales, zero substance (Warning: High Risk).",
+    "motto": "Hype over substance",
+    "superpower": "You can sell anything with the right marketing and influencer network.",
+    "fatalFlaw": "When reality doesn't match the hype, everything collapses spectacularly.",
+    "teamRoster": [
+      "The Hustler (Speed): Sells dreams faster than they can be delivered.",
+      "The Influencer (Brand): Creates hype that makes people buy before thinking.",
+      "The Growth Hacker (Velocity): Focuses on sales over delivery, consequences be damned."
+    ]
+  },
+  "B-1-X": {
+    "name": "The Deep Tech",
+    "analog": "Google (Early)",
+    "description": "Perfect engineering, massive data. Slow to ship, but works forever.",
+    "motto": "Perfect over fast",
+    "superpower": "Your technology is so robust that competitors can't catch up, even with years of effort.",
+    "fatalFlaw": "You might take so long to ship that faster competitors capture the market first.",
+    "teamRoster": [
+      "The High-Stakes Architect (Stability): Writes bulletproof code that never breaks.",
+      "The Data Scientist (Logic): Builds algorithms that work perfectly at massive scale.",
+      "The Perfectionist Engineer (Quality): Refuses to ship until every edge case is handled."
+    ]
+  },
+  "B-1-Y": {
+    "name": "The Secure Vault",
+    "analog": "Signal / 1Password",
+    "description": "Quality code, total trust. No tolerance for bugs.",
+    "motto": "Trust through perfection",
+    "superpower": "Users trust you with their most sensitive data because you never fail.",
+    "fatalFlaw": "You might move so slowly that you miss market opportunities while perfecting features.",
+    "teamRoster": [
+      "The High-Stakes Architect (Stability): Ensures security is bulletproof, no compromises.",
+      "The Guardian (Trust): Builds systems that users trust with their lives.",
+      "The Perfectionist Engineer (Quality): Tests every line of code until it's flawless."
+    ]
+  },
+  "B-1-Z": {
+    "name": "The Artisan Tool",
+    "analog": "Linear / Notion",
+    "description": "Engineering excellence meets aesthetic perfection.",
+    "motto": "Beauty in code",
+    "superpower": "Your product is so beautiful and well-built that users become evangelists.",
+    "fatalFlaw": "You might spend so long perfecting that competitors ship faster and capture market share.",
+    "teamRoster": [
+      "The High-Stakes Architect (Stability): Writes code that's both powerful and elegant.",
+      "The Aesthetic Engineer (Brand): Believes code should be as beautiful as the UI.",
+      "The Perfectionist (Quality): Refuses to ship until every detail is perfect."
+    ]
+  },
+  "B-2-X": {
+    "name": "The Insight Engine",
+    "analog": "Spotify",
+    "description": "Quality design backed by deep data recommendation models.",
+    "motto": "It just works",
+    "superpower": "Users feel deeply understood. Your recommendations keep them hooked forever.",
+    "fatalFlaw": "You might be so obsessed with data and polish that you miss messy, viral social trends.",
+    "teamRoster": [
+      "The Guardian (Stability): Ensures the music never buffers and the app never crashes.",
+      "The Designer (Experience): Ensures the Play button is exactly where your thumb expects it.",
+      "The Data Scientist (Logic): Built the Discover Weekly algorithm that keeps users subscribed forever."
+    ]
+  },
+  "B-2-Y": {
+    "name": "The Trust Platform",
+    "analog": "Airbnb",
+    "description": "Design builds trust between strangers. Quality is safety.",
+    "motto": "Trust through design",
+    "superpower": "You enable transactions between strangers that would be impossible without your platform.",
+    "fatalFlaw": "You might focus so much on perfect design that you miss operational issues that erode trust.",
+    "teamRoster": [
+      "The Guardian (Stability): Ensures the platform never fails when trust is on the line.",
+      "The Empathetic Artisan (Experience): Designs experiences that make strangers trust each other.",
+      "The Trust Builder (Community): Creates systems that verify and protect users."
+    ]
+  },
+  "B-2-Z": {
+    "name": "The Luxury Brand",
+    "analog": "Apple",
+    "description": "Perfection in design and brand. High cost, high quality.",
+    "motto": "Perfection is standard",
+    "superpower": "Your brand commands premium prices because every detail is perfect.",
+    "fatalFlaw": "You might price yourself out of the market or move too slowly for fast-moving trends.",
+    "teamRoster": [
+      "The Guardian (Stability): Ensures products work flawlessly, no exceptions.",
+      "The Empathetic Artisan (Experience): Obsesses over every pixel until it's perfect.",
+      "The Status Architect (Brand): Creates products that define what's desirable."
+    ]
+  },
+  "B-3-X": {
+    "name": "The Precision Logist",
+    "analog": "Amazon",
+    "description": "Quality ops, data-driven. \"The Everything Store.\"",
+    "motto": "Everything, perfectly",
+    "superpower": "You can deliver anything, anywhere, with precision that competitors can't match.",
+    "fatalFlaw": "You might become so focused on operational perfection that you lose human touch.",
+    "teamRoster": [
+      "The Guardian (Stability): Ensures systems never fail, even at massive scale.",
+      "The White-Glove Operator (Service): Delivers perfect service consistently.",
+      "The Data Optimizer (Logic): Uses data to optimize every aspect of operations."
+    ]
+  },
+  "B-3-Y": {
+    "name": "The Service Standard",
+    "analog": "Zendesk / Intercom",
+    "description": "Operations focused on high-touch, high-quality customer support.",
+    "motto": "Service is everything",
+    "superpower": "Your service is so exceptional that customers become loyal for life.",
+    "fatalFlaw": "You might focus so much on service quality that you can't scale efficiently.",
+    "teamRoster": [
+      "The Guardian (Stability): Ensures service never fails, even under pressure.",
+      "The White-Glove Operator (Service): Delivers legendary support that customers remember.",
+      "The Relationship Builder (Trust): Creates connections that last decades."
+    ]
+  },
+  "B-3-Z": {
+    "name": "The Exclusive Club",
+    "analog": "Clubhouse (Early) / Product Hunt",
+    "description": "Quality operations, high brand status, very exclusive.",
+    "motto": "Exclusivity is value",
+    "superpower": "Your exclusivity creates desire. People want what they can't have.",
+    "fatalFlaw": "You might become so exclusive that you limit growth, or lose relevance.",
+    "teamRoster": [
+      "The Guardian (Stability): Ensures the experience is consistently perfect.",
+      "The White-Glove Operator (Service): Delivers premium service that justifies exclusivity.",
+      "The Gatekeeper (Brand): Controls access to maintain status and desirability."
+    ]
+  },
+  "C-1-X": {
+    "name": "The Indie Hacker",
+    "analog": "Stripe (Early) / Gumroad",
+    "description": "One person, low cost, automated data scripts.",
+    "motto": "Automate everything",
+    "superpower": "You can build and run a profitable business with minimal resources.",
+    "fatalFlaw": "You might stay too small to matter, or burn out trying to do everything alone.",
+    "teamRoster": [
+      "The Pragmatist (Efficiency): Uses tools and libraries, never builds from scratch.",
+      "The Solo Builder (Logic): Automates everything with scripts and data.",
+      "The Bootstrap Engineer (Cost): Builds profitable products with zero budget."
+    ]
+  },
+  "C-1-Y": {
+    "name": "The Open Source",
+    "analog": "Linux / Wikipedia",
+    "description": "No money, pure engineering, community built.",
+    "motto": "Community builds",
+    "superpower": "You leverage community to build something no company could afford to build.",
+    "fatalFlaw": "You might struggle to monetize, or lose control as the community grows.",
+    "teamRoster": [
+      "The Pragmatist (Efficiency): Uses open source tools and contributes back.",
+      "The Community Builder (Trust): Inspires volunteers to contribute their best work.",
+      "The Idealist Engineer (Cost): Believes great software should be free and open."
+    ]
+  },
+  "C-1-Z": {
+    "name": "The Vaporware",
+    "analog": "Theranos",
+    "description": "Low cost (fake tech), high brand claim. (Failure Mode).",
+    "motto": "Fake it till...",
+    "superpower": "You can raise money and generate hype with minimal actual product.",
+    "fatalFlaw": "When reality catches up, everything collapses. This is a warning, not a strategy.",
+    "teamRoster": [
+      "The Pragmatist (Efficiency): Uses smoke and mirrors instead of real tech.",
+      "The Hype Builder (Brand): Creates compelling narratives without substance.",
+      "The Fake Engineer (Cost): Promises the impossible, delivers nothing."
+    ]
+  },
+  "C-2-X": {
+    "name": "The Template King",
+    "analog": "Canva / Wix",
+    "description": "Cheap to make, data-driven design tools for masses.",
+    "motto": "Templates for all",
+    "superpower": "You democratize design, making professional tools accessible to everyone.",
+    "fatalFlaw": "You might become so focused on templates that you limit creativity and innovation.",
+    "teamRoster": [
+      "The Minimalist (Efficiency): Uses standard UI kits, believes boring is profitable.",
+      "The Template Builder (Logic): Creates tools that make design accessible through data.",
+      "The Mass Market Designer (Cost): Focuses on volume over customization."
+    ]
+  },
+  "C-2-Y": {
+    "name": "The Community Forum",
+    "analog": "Reddit / Discord",
+    "description": "Ugly design, low cost, massive human connection.",
+    "motto": "Function over form",
+    "superpower": "You create communities that become essential to people's lives, despite the design.",
+    "fatalFlaw": "You might stay ugly for so long that better-designed competitors steal your users.",
+    "teamRoster": [
+      "The Minimalist (Efficiency): Uses basic design, focuses on functionality.",
+      "The Community Architect (Trust): Builds spaces where people form real connections.",
+      "The Bootstrap Designer (Cost): Creates value through community, not expensive design."
+    ]
+  },
+  "C-2-Z": {
+    "name": "The Bootstrap Brand",
+    "analog": "Mailchimp / Basecamp",
+    "description": "Simple design, high vibe, low cost to produce.",
+    "motto": "Vibe over budget",
+    "superpower": "You create products with personality that people love, without expensive production.",
+    "fatalFlaw": "You might stay too small or struggle to scale beyond your initial audience.",
+    "teamRoster": [
+      "The Minimalist (Efficiency): Creates simple designs that punch above their weight.",
+      "The Vibe Creator (Brand): Understands what makes products feel authentic.",
+      "The Bootstrap Builder (Cost): Builds brands on personality, not budget."
+    ]
+  },
+  "C-3-X": {
+    "name": "The Arbitrageur",
+    "analog": "eBay / Amazon Marketplace",
+    "description": "Low cost, ops heavy, data-driven margins.",
+    "motto": "Margin is king",
+    "superpower": "You can find and exploit inefficiencies that others miss, with minimal capital.",
+    "fatalFlaw": "You might become too dependent on arbitrage opportunities that eventually disappear.",
+    "teamRoster": [
+      "The Pragmatist (Efficiency): Finds ways to make money with minimal investment.",
+      "The Data Optimizer (Logic): Uses data to find profitable opportunities.",
+      "The Hustler Operator (Cost): Manages operations that maximize margins."
+    ]
+  },
+  "C-3-Y": {
+    "name": "The Public Utility",
+    "analog": "Craigslist",
+    "description": "Ugly, free, community-run, zero innovation, infinite value.",
+    "motto": "Simple and free",
+    "superpower": "You provide so much value that you become essential, even without innovation.",
+    "fatalFlaw": "You might become so complacent that better-designed competitors eventually replace you.",
+    "teamRoster": [
+      "The Pragmatist (Efficiency): Keeps things simple and free, no frills.",
+      "The Community Steward (Trust): Maintains a platform that serves the community.",
+      "The Minimalist Operator (Cost): Runs operations with near-zero cost."
+    ]
+  },
+  "C-3-Z": {
+    "name": "The Guerilla Marketer",
+    "analog": "Duolingo / Grammarly",
+    "description": "Commodity product, low cost ops, 100% brand/marketing.",
+    "motto": "Brand is product",
+    "superpower": "You can turn a commodity into a cult brand through pure marketing genius.",
+    "fatalFlaw": "You might become so dependent on marketing that you can't sustain growth when trends shift.",
+    "teamRoster": [
+      "The Pragmatist (Efficiency): Uses commodity products, focuses on margins.",
+      "The Brand Hustler (Brand): Creates marketing that makes commodities feel special.",
+      "The Guerilla Operator (Cost): Runs lean operations, spends on marketing."
+    ]
+  }
+}
